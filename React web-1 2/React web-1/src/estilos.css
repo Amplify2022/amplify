@@ -1,0 +1,250 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.loginParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../src/componentes/photo.jpg);
+}
+
+.registerParent {
+  text-align: center;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  width: 40%;
+}
+
+.login {
+  text-align: center;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  width: 30%;
+  justify-content: center;
+}
+
+.h3 {
+  margin: 30px;
+}
+
+.division {
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 1mm;
+  background-color: white;
+  height: 350px;
+  padding-top: 15px;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.forgotPass {
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+#userPassword::placeholder {
+  font-size: 0.9em;
+}
+#user::placeholder {
+  font-size: 0.9em;
+}
+
+.block {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  align-items: center;
+}
+
+#buttonLogin {
+  text-align: center;
+  border-radius: 5px;
+  background-color: yellowgreen;
+  font-weight: bold;
+  width: 60%;
+}
+
+#buttonRegister {
+  text-align: center;
+  border-radius: 5px;
+  background-color: #2d2d2d;
+  font-weight: bold;
+  width: 60%;
+  color: white !important;
+}
+
+label.block {
+  text-align: right;
+  margin-right: 20px;
+  width: 100px;
+  justify-content: center;
+}
+
+.submit {
+  display: inline-block;
+  align-items: center;
+  padding-top: 20px !important;
+  width: 100%;
+}
+
+.divo {
+  margin-top: 5px;
+}
+
+.inputText {
+  width: 65%;
+}
+
+#user {
+  margin-bottom: 15px;
+}
+
+#subm {
+  margin-top: 0px !important;
+  padding-top: 10px !important;
+}
+.inputs {
+  margin: 10px;
+  align-items: center;
+}
+
+input.botonLogin {
+  text-align: center;
+  width: 100px;
+}
+
+.actionsContainer {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.actionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#returnHome {
+  margin-left: 40px;
+}
+
+
+.textSearch{
+  width: 70%;
+}
+
+a.pa {
+  color: white;
+  margin-left: 50px;
+}
+
+.forgotPassword {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.form {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.formElement {
+  display: flex;
+  margin: 15px;
+  align-items: right;
+}
+
+.textForm {
+  align-items: right;
+  width: 60%;
+}
+
+.reg {
+  width: 30%;
+  text-align: left;
+}
+.itemsDiv{
+  position:absolute;
+  background-color: black;
+  color: white;
+  min-width: 450px;
+  border-color: white;
+  border-style: solid 1px !important;
+}
+
+
+.botonRegistro {
+  text-align: center;
+  border-radius: 5px;
+  background-color: yellowgreen;
+  font-weight: bold;
+  width: 130px;
+}
+
+.mainPlaylist{
+  max-height: 330px !important;
+}
+
+.completeForm {
+  display: inline-block;
+  align-items: center;
+}
+
+.react-confirm-alert {
+  color: white;
+  background-color: black;
+  border-style: solid;
+}
+
+.confirm-box__content {
+  background-color: black !important;
+}
+
+.confirm-box {
+  color: white;
+}
+
+.confirm-box__actions {
+  display: inline-block;
+  margin: 0px !important;
+}
+
+button[role="cancellable-button"] {
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: yellowgreen;
+  font-weight: bold;
+}
+
+button[role="confirmable-button"] {
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: yellowgreen;
+  font-weight: bold;
+}

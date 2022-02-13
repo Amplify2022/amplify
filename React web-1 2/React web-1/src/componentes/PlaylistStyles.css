@@ -1,0 +1,46 @@
+.mainPlaylist {
+  margin-top: 30px;
+  overflow-y: auto;
+  max-height: 450px;
+}
+
+
+
+.items {
+  margin-right: 15px;
+  margin-bottom: 5px;
+
+}
+
+.songItems{
+  display:flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.songDetails{
+  flex:none !important;
+  align-items: flex-start !important;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.icons {
+  margin-right: 20px;
+  margin-left: 20px;
+  justify-content: space-between;
+  
+}
+
+.imgs {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.delete {
+  background-color: darkred;
+  color: white;
+}
